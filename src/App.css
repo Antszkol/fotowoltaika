@@ -1,0 +1,23 @@
+.full-width-image {
+  width: 100%;
+  line-height: 0;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .full-width-image {
+    max-height: 260px;
+    overflow: hidden;
+  }
+
+  .full-width-image img {
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
