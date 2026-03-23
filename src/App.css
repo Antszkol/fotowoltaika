@@ -1,5 +1,10 @@
 .full-width-image {
-  width: 100%;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   line-height: 0;
 }
 
@@ -7,6 +12,7 @@
   width: 100%;
   height: auto;
   display: block;
+  max-width: 100%;
 }
 
 @media (max-width: 767px) {
